@@ -1,0 +1,9 @@
+name: TWNPC
+version: '${project.version}'
+main: com.ethan.twnpc.TWNPC
+api-version: 1.19
+depend:
+  - ProtocolLib
+commands:
+  npc:
+    description: Spawns an NPC
